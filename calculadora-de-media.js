@@ -31,14 +31,28 @@ console.log(' Sua média foi :' , media.toFixed(2),  '  --- Você foi Reprovado(
 } else {
 console.log(' Sua média foi :' , media.toFixed(2),  ' --- Você foi Aprovado(a) por Média. Parabéns! ---')
 }   
+/*
+Informe valor da primeira nota?7
+Informe valor da segunda nota?7
+Informe valor da terceira nota?7
+Informe valor da quarta nota?7
+Informe valor da quinta nota?7
+Informe valor da sexta nota?7
+Soma das notas:  42.00
+ Sua média foi : 7.00  --- Você foi Aprovado(a) por Média. Parabéns! ---
+*/
 
 
-// A Fuctura Express tem a capacidade de transportar 15 tonelada por viagem. 
-// Sua frota possui 25 caminhões. O custo por cada Kg transportado é de 10,50. 
-// Escreva um programa que receberá o peso de um lote em Kg* a ser transportado. 
-// Seu algoritmo deve informar: 1 - Quantos caminhões serão necessários para transportar o lote. 
-// 2 - o número de viagens necessárias para transportar esse lote. 3 - custo de cada viagem.  
 
+/*
+
+ A Fuctura Express tem a capacidade de transportar 15 tonelada por viagem. 
+ Sua frota possui 25 caminhões. O custo por cada Kg transportado é de 10,50. 
+ Escreva um programa que receberá o peso de um lote em Kg* a ser transportado. 
+ Seu algoritmo deve informar: 1 - Quantos caminhões serão necessários para transportar o lote. 
+ 2 - o número de viagens necessárias para transportar esse lote. 3 - custo de cada viagem.
+
+*/
 
 const entrada = input.question('Digite o peso do seu lote(kg)')
 
@@ -53,3 +67,10 @@ custoDaViagem = entrada * custoPorQuiloTransportado
 console.log("Capacidade total da Fuctura é ", "R$", capacidadeTotalFuctura)
 console.log("O número de caminhões para transporte do lote foi : ", caminhoesParaTransporteDoLote.toFixed(2) , "caminhões")
 console.log("Custo da viagem é :", "R$", custoDaViagem.toFixed(2))
+
+/*
+Digite o peso do seu lote(kg)30000
+Capacidade total da Fuctura é  R$ 375000
+O número de caminhões para transporte do lote foi :  2.00 caminhões
+Custo da viagem é : R$ 315000.00
+*/
