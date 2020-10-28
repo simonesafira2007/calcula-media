@@ -17,6 +17,7 @@ if (input1 >= 12) {
 
 
 // Resolução com função
+
 const entrada = input.question("Digite a quantidade de laranjas : ")
 
 function frutas() {
