@@ -3,7 +3,7 @@ const input = require("readline-sync");
 /*  As maçãs custam R$ 1.30 cada se forem compradas menos de uma dúzia, e R$ 1.00 se forem  compradas pelo menos 12. Escreva um programa que leia o número de maçãs compradas, calcule e escreva o custo total da compra.   */
 
 
-// Resoluução implementada sem função
+// Resolução implementada sem função
 
 const input1 = input.question("Informe quantas bananas comprou?");
 
@@ -14,6 +14,11 @@ if (input1 >= 12) {
   valor2 = input1 * 1.32.toFixed(2)
   console.log(valor2)
 }
+
+/*
+Informe quantas bananas comprou?2
+2.64
+*/
 
 
 // Resolução com função
@@ -32,3 +37,9 @@ function frutas() {
 
 }
 console.log(frutas())
+
+
+/*
+Digite a quantidade de laranjas : 15
+15
+*/
