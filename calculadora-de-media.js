@@ -1,22 +1,14 @@
  const input = require('readline-sync')
 
-
-const qtd = input.question('Informe quantas laranjas comprou?')
-
-if (qtd < 12) {
-    valorTotal = qtd * 1,30
-    console.log(valorTotal) 
-
-    }else  {
-        valorTotal2 = qtd * 1,00
-        console.log(valorTotal2)
-    }
-
- /* Programa para calcular média:   
+ /*  
+ 
+ Programa para calcular média:   
  - Recebe seis notas inseridas pelo usuário;
  - Soma todas as notas na constante total;
  - Efetua o cálculo da média;
- - Mostra a situação do aluno: Aprovado / Reprovado/ Recuperação */
+ - Mostra a situação do aluno: Aprovado / Reprovado/ Recuperação  
+ 
+ */
 
 const input1 = input.question('Informe valor da primeira nota?')
 const input2 = input.question('Informe valor da segunda nota?')
@@ -41,8 +33,7 @@ console.log(' Sua média foi :' , media.toFixed(2),  ' --- Você foi Aprovado(a)
 }   
 
 
-
-//  Bety: A Fuctura Express tem a capacidade de transportar 15 tonelada por viagem. 
+// A Fuctura Express tem a capacidade de transportar 15 tonelada por viagem. 
 // Sua frota possui 25 caminhões. O custo por cada Kg transportado é de 10,50. 
 // Escreva um programa que receberá o peso de um lote em Kg* a ser transportado. 
 // Seu algoritmo deve informar: 1 - Quantos caminhões serão necessários para transportar o lote. 
@@ -51,14 +42,14 @@ console.log(' Sua média foi :' , media.toFixed(2),  ' --- Você foi Aprovado(a)
 
 const entrada = input.question('Digite o peso do seu lote(kg)')
 
-capacidadeDeTransportePorViagem = 15.000
+capacidadeDeTransportePorViagem = 15000
 totalDaFrota = 25
 custoPorQuiloTransportado = 10.50
-capacidadeTotalCadaCaminhao = 15.000
+capacidadeTotalCadaCaminhao = 15000
 capacidadeTotalFuctura = capacidadeDeTransportePorViagem * totalDaFrota
 caminhoesParaTransporteDoLote = entrada/capacidadeTotalCadaCaminhao
 custoDaViagem = entrada * custoPorQuiloTransportado
 
-console.log("Capacidade total da Fuctura é ", "R$", capacidadeTotalFuctura, "mil quilos")
+console.log("Capacidade total da Fuctura é ", "R$", capacidadeTotalFuctura)
 console.log("O número de caminhões para transporte do lote foi : ", caminhoesParaTransporteDoLote.toFixed(2) , "caminhões")
 console.log("Custo da viagem é :", "R$", custoDaViagem.toFixed(2))
