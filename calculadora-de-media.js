@@ -1,5 +1,16 @@
+ const input = require('readline-sync')
 
-const input = require('readline-sync')
+
+const qtd = input.question('Informe quantas laranjas comprou?')
+
+if (qtd < 12) {
+    valorTotal = qtd * 1,30
+    console.log(valorTotal) 
+
+    }else  {
+        valorTotal2 = qtd * 1,00
+        console.log(valorTotal2)
+    }
 
  /* Programa para calcular média:   
  - Recebe seis notas inseridas pelo usuário;
@@ -31,7 +42,11 @@ console.log(' Sua média foi :' , media.toFixed(2),  ' --- Você foi Aprovado(a)
 
 
 
-/*  Bety: A Fuctura Express tem a capacidade de transportar 15 tonelada por viagem. Sua frota possui 25 caminhões. O custo por cada Kg transportado é de 10,50. *Escreva um programa que receberá o peso de um lote em Kg* a ser transportado. Seu algoritmo deve informar: 1 - Quantos caminhões serão necessários para transportar o lote. 2 - o número de viagens necessárias para transportar esse lote. 3 - custo de cada viagem.  */
+//  Bety: A Fuctura Express tem a capacidade de transportar 15 tonelada por viagem. 
+// Sua frota possui 25 caminhões. O custo por cada Kg transportado é de 10,50. 
+// Escreva um programa que receberá o peso de um lote em Kg* a ser transportado. 
+// Seu algoritmo deve informar: 1 - Quantos caminhões serão necessários para transportar o lote. 
+// 2 - o número de viagens necessárias para transportar esse lote. 3 - custo de cada viagem.  
 
 
 const entrada = input.question('Digite o peso do seu lote(kg)')
@@ -45,5 +60,5 @@ caminhoesParaTransporteDoLote = entrada/capacidadeTotalCadaCaminhao
 custoDaViagem = entrada * custoPorQuiloTransportado
 
 console.log("Capacidade total da Fuctura é ", "R$", capacidadeTotalFuctura, "mil quilos")
-console.log("O número de caminhões para transporte do lote foi : ", caminhoesParaTransporteDoLote.toFixed(2), "caminhões")
-console.log("Custo da viagem é :", "R$", custoDaViagem.toFixed(3), "mil")
+console.log("O número de caminhões para transporte do lote foi : ", caminhoesParaTransporteDoLote.toFixed(2) , "caminhões")
+console.log("Custo da viagem é :", "R$", custoDaViagem.toFixed(2))
