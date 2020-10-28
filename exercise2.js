@@ -24,3 +24,5 @@ function lista() {
   }
 }
 console.log(lista());
+
+// 20
