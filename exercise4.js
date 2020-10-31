@@ -2,8 +2,8 @@ const input = require("readline-sync");
 
 /*
 Escreva um algoritmo que leia um número e imprima a raiz quadrada do
-número caso ele seja positivo ou igual a zero; e o quadrado do número caso
-ele seja negativo.
+número caso ele seja positivo ou igual a zero  e retorne uma mensagem de número inválido caso
+o número inserido seja negativo.
 */
 
 const numero = input.question("Informe um numero :")
