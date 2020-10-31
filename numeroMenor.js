@@ -5,8 +5,8 @@ Faça um algoritmo que leia 3 números inteiros distintos e escreva o menor
 deles.
 */
 const num1 = input.question("Primeiro numero :")
-const num2 = input.question("Primeiro numero :")
-const num3 = input.question("Primeiro numero :")
+const num2 = input.question("Segundo numero :")
+const num3 = input.question("Terceiro numero :")
 
 if ((num1 > num2) & (num1 > num3)) {
     console.log(`O maior número é ${num1}`)
