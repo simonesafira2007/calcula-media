@@ -8,10 +8,10 @@ ele seja negativo.
 
 const numero = input.question("Informe um numero :")
 
-if (numero >= "0"){
-    raizQuadradaDoNumero = (numero * numero)/ numero
+if (numero >= 0 ){
+    raizQuadradaDoNumero = numero * numero
     console.log(raizQuadradaDoNumero)
 } else {
-    quuadradoDoNumero = numero * numero
-    console.log(quuadradoDoNumero)
+    console.log("Número inválido")   
 }
+
