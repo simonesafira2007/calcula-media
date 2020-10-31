@@ -4,8 +4,8 @@ Escreva um algoritmo que leia dois valores numéricos inteiros e efetue a
 adição; caso o resultado seja maior que 10, apresentá-lo.
 */
 
-let valor1 = 9  
-let valor2 = 65
+let valor1 = 6 
+let valor2 = 7
 let resultado = valor1+valor2
 if (resultado > 10) {
   console.log(resultado);
