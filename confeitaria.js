@@ -27,7 +27,7 @@ console.log(`A quantidade de doces tipo3 vendida foi ${qtd3} e o valor custa : R
 // Solução 2
 
 
-console.log("Escolha o tipo de doce: 1- Tipo1, 2- Tipo2, 3- Tipo3:")
+console.log("Escolha o tipo de doce: 1- Tipo1: custa R$ 2.00 / 2- Tipo2: custa R$ 2.50 / 3- Tipo3: custa R$ 3.00")
 const tipoDoce = input.question("Informe o tipo de doce desejado :")
 if ((tipoDoce != 1) & (tipoDoce != 2) & (tipoDoce != 3)) {
     console.log("Opção inválida!")
