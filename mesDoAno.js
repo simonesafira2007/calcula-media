@@ -68,3 +68,45 @@ switch (mesDoAno) {
     console.log(" Insira um número de 1 a 12 ");
     break;
 }
+
+// Solução 2
+const mesesDoAno = input.question(
+    "Digite um numero correspondente ao mes do ano: de 1 a 12) :"
+  );
+  
+  switch (mesesDoAno) {
+    case "1":
+      console.log("Férias");
+  
+      break;
+
+    case "2":
+    case "3":  
+    case "4":
+    case "5":
+    case "6":       
+    console.log("1º semestre letivo ");
+    
+    break;
+    case "7":
+    console.log(" Recesso");
+
+    break;
+
+    case "8":
+    case "9":  
+    case "10":
+    case "11":      
+    console.log("1º semestre letivo ");
+    
+    break;
+    case "12":
+        console.log(" Férias ");
+    
+        break;
+    
+      default:
+        console.log(" Insira um número de 1 a 12 ");
+        break;
+
+  } 
