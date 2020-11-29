@@ -28,10 +28,10 @@ switch (mesDoAno) {
   case "4":
     console.log(" 1º semestre letivo ");
 
-    break;
+    break;    
   case "5":
     console.log(" 1º semestre letivo ");
-
+      
     break;
   case "6":
     console.log(" 1º semestre letivo ");
@@ -70,6 +70,7 @@ switch (mesDoAno) {
 }
 
 // Solução 2
+
 const mesesDoAno = input.question(
     "Digite um numero correspondente ao mes do ano: de 1 a 12) :"
   );
