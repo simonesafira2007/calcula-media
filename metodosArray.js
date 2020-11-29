@@ -65,10 +65,13 @@ Imprindo o array de meses do ano
 adiciona um ou mais  elementos (8, 15, 92) no começo do array usando o unshift
 [
    8, 15, 92, 20, 57,
-  81, 67,  2, 10
+  81, 67,  2, 10  
 ]
 os elementos serão ordenados usando método sort
+[ 'morango', 'abacaxi', 'limão', 'bananas' ]
+array ordenado pelo método sort
 [ 'abacaxi', 'bananas', 'limão', 'morango' ]
-  *************************
+
+
 */
 
