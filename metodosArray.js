@@ -38,11 +38,16 @@ console.log(numeros)
 console.log("os elementos serão ordenados usando método sort")
 
 let frutas = ["morango", "abacaxi", "limão", "bananas"];
+
+console.log(frutas)
+
+console.log("array ordenado pelo método sort")
+
 frutas.sort()
 
 console.log(frutas)
 
-console.log("  *************************  ")
+
 
 /*
  **** MÉTODOS DO ARRAY ***  
