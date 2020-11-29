@@ -35,11 +35,18 @@ numeros.unshift(8, 15, 92)
 
 console.log(numeros)
 
+console.log("os elementos serão ordenados usando método sort")
+
+let frutas = ["morango", "abacaxi", "limão", "bananas"];
+frutas.sort()
+
+console.log(frutas)
+
 console.log("  *************************  ")
 
 /*
-  **** MÉTODOS DO ARRAY ***  
- ___________________________
+ **** MÉTODOS DO ARRAY ***  
+ ___________________________ 
 Imprimindo o array de meses do ano
 [ 'Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho' ]
   *************************
@@ -55,6 +62,8 @@ adiciona um ou mais  elementos (8, 15, 92) no começo do array usando o unshift
    8, 15, 92, 20, 57,
   81, 67,  2, 10
 ]
+os elementos serão ordenados usando método sort
+[ 'abacaxi', 'bananas', 'limão', 'morango' ]
   *************************
-
 */
+
