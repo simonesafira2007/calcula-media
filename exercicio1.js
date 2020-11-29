@@ -40,3 +40,48 @@ do {
 
 */
 
+
+console.log("_________________________________")
+console.log("_________________________________")
+
+//Exemplo do comando de repetição FOR
+
+i = 0;
+for(let i = 0; i <=5; i++){
+    console.log("Step by step, I will win!")
+}
+
+/*
+Step by step, I will win!
+Step by step, I will win!
+Step by step, I will win!
+Step by step, I will win!
+Step by step, I will win!
+Step by step, I will win!
+
+*/
+
+
+/*
+1
+3
+6
+10
+15
+_________________________________
+_________________________________
+1
+2
+3
+4
+5
+6
+_________________________________
+_________________________________
+Step by step, I will win!
+Step by step, I will win!
+Step by step, I will win!
+Step by step, I will win!
+Step by step, I will win!
+Step by step, I will win!
+*/
